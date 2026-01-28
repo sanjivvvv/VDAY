@@ -29,5 +29,7 @@ yesBtn.addEventListener("click", () => {
   mainGif.src = "assets/fireworks.gif";
   question.textContent = "YAYYYY!!! 🎆💖";
   buttons.style.display = "none";
-});
 
+  // remove the "Choose wisely" text
+  document.getElementById("hintText").style.display = "none";
+});
