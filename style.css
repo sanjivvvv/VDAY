@@ -1,1 +1,51 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #fff0f6;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 90%;
+  max-width: 420px;
+}
+
+.media img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.buttons {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.yes {
+  background: #22c55e;
+  color: white;
+}
+
+.no {
+  background: #ef4444;
+  color: white;
+}
 
